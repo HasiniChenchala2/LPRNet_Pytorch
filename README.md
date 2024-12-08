@@ -11,6 +11,12 @@ Pytorch Implementation For LPRNet, A High Performance And Lightweight License Pl
 - imutils
 - Pillow
 - numpy
+- tvm
+- onnx
+
+# Folder Structure :
+
+![Folder Structure](image.png)
 
 # pretrained model
 
@@ -35,11 +41,24 @@ Pytorch Implementation For LPRNet, A High Performance And Lightweight License Pl
 | ------ | --------------------- | ---------------------- |
 |  1.7M  |         96.0+         |          0.5-          |
 
+
+# Model Optimizations and MLC Optimizations
+
+The ```RTML_hchench_CourseProject.ipynb``` is a Jupyter notebook that implements various optimization techniques for the License Plate Recognition (LPRNET) model, including pruning, quantization, parallelization, vectorization, and loop blocking. It provides code for evaluating the impact of these optimizations on the model's accuracy, speed, and size, offering insights into how each technique improves the model's performance and efficiency.
+
+The ```RTML_CourseProject_Report_hchench.pdf``` is a detailed report that discusses the optimizations applied to the LPR model and the Machine Learning Compiler (MLC) optimizations. It focuses on three key metrics—speed, accuracy, and model size—and provides answers to relevant questions, explaining how the optimizations influence these aspects and detailing the overall impact on model performance.
+
+# Steps to Run
+ 
+* [Colab_link](
+https://colab.research.google.com/drive/1NVnd2B-PjvBo97PrFe6Fn2zDvapyQSr9?authuser=1#scrollTo=-o38Qyl57E6C)
+
+Open the above colab link and run the cells one by one and to get inference speed, accuracy and size using onnx  for model optimizations and MLC optimizations.
+
+
+
 # References
 
 1. [LPRNet: License Plate Recognition via Deep Neural Networks](https://arxiv.org/abs/1806.10447v1)
 2. [PyTorch中文文档](https://pytorch-cn.readthedocs.io/zh/latest/)
 
-# postscript
-
-If you found this useful, please give me a star, thanks!
