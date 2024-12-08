@@ -46,7 +46,7 @@ Pytorch Implementation For LPRNet, A High Performance And Lightweight License Pl
 
 The ```RTML_hchench_CourseProject.ipynb``` is a Jupyter notebook that implements various optimization techniques for the License Plate Recognition (LPRNET) model, including pruning, quantization, parallelization, vectorization, and loop blocking. It provides code for evaluating the impact of these optimizations on the model's accuracy, speed, and size, offering insights into how each technique improves the model's performance and efficiency.
 
-The ```RTML_CourseProject_Report_hchench.pdf``` is a detailed report that discusses the optimizations applied to the LPR model and the Machine Learning Compiler (MLC) optimizations. It focuses on three key metrics—speed, accuracy, and model size—and provides answers to relevant questions, explaining how the optimizations influence these aspects and detailing the overall impact on model performance.
+The ```RTML_CourseProject_Report_hchench.pdf``` is a detailed report that discusses the optimizations applied to the LPRNet model and the  MLC optimizations. It focuses on three key metrics—speed, accuracy, and model size—and provides answers to relevant questions, explaining how the optimizations influence these aspects and detailing the overall impact on model performance.
 
 # Steps to Run
  
